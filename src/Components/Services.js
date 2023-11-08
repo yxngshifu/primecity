@@ -6,7 +6,7 @@ import  FadeIn from './FadeIn';
 
 const Services = () => {
    return (
-    <div id="reference" className="mb-[160px] px-10 max-w-[1490px] mx-auto">
+    <div id="service" className="mb-[160px] px-10 max-w-[1490px] mx-auto">
       <FadeIn delay={0.2} direction="down">
         <h3 className="text-5xl lg:text-[64px] font-medium text-fontBlack mb-6 text-center">
           {serviceTitle}

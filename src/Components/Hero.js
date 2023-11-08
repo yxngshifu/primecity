@@ -4,7 +4,6 @@ import heroImage from '/Users/shifu/primecity/src/Assets/Hero.jpg'
 import { heroSubtitle, heroTitle, heroTitle2 } from './data.js';
 
 import FadeIn from './FadeIn';
-import Services from './Services';
 const Hero = () => {
 
   return (
