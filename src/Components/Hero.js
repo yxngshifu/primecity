@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import heroImage from './Hero.jpg'
+import heroImage from '/Users/shifu/primecity/src/views/Hero.jpg'
 import { heroSubtitle, heroTitle, heroTitle2, heroitem } from '../data.js';
 import herologo2 from  '../Assets/LOGOGOLD.png'
 import FadeIn from './FadeIn';
