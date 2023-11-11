@@ -1,8 +1,8 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import logoImage from '/Users/shifu/primecity/src/Assets/PFS2.png';
 
 
-const logo= process.env.PUBLIC_URL + '/Assets/LOGO1.jpg';
 
 
 
@@ -19,7 +19,7 @@ const Navbar = () => {
           
         <div className="  flex justify-between items-center bg-opacity-90 h-24 max-w-[1240px] mx-auto px-4 text-[#023e8a] ">
             
-                <img className="w-[100px] mx-4 my-4 flex items-center cursor-pointer" src={logo} alt="/" />
+                <img className="w-[30px] mx-4 my-4 flex items-center cursor-pointer" src={logoImage} alt="Logo"  />
               
             <ul className="hidden md:flex  cursor-pointer">
               
@@ -43,7 +43,7 @@ const Navbar = () => {
             <div
                 className={
                     nav
-                        ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#f5ebe0] bg-opacity-90 ease-in-out duration-500'
+                        ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#f5ebe0] bg-opacity-10 ease-in-out duration-500'
                         : 'fixed left-[-100%] '
                 }
             >

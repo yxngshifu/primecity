@@ -1,9 +1,14 @@
 import bottles from '../Assets/bottles.jpg';
-
+import herologo from '../Assets/LOGOGOLD.png';
 
 
 export const heroTitle = "PROFESSIONAL";
 export const heroTitle2 = "CLEANING SERVICE";
+export const heroitem =[
+  {
+    img:herologo,
+  }
+]
 
 export const heroSubtitle =
   "Refresh your space!";
