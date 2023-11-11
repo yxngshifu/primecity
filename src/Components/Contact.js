@@ -17,7 +17,7 @@ const Contact = () => {
 
         <div className='flex flex-col space-y-2 items-center'>
           <AiFillPhone size={32} />
-          <div className='text-lg'>07949188811</div>
+          <div className='text-lg'>01159902076</div>
         </div>
       </div>
     </div>
