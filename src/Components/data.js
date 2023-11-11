@@ -22,7 +22,7 @@ export const pricesTitle = "We offer the best prices";
 export const prices = [
   {
     title: "Starting from",
-    price: "€18 (per hr)",
+    price: "£18 (per hr)",
     img: bottles,
   }
 ];
