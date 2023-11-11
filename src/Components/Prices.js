@@ -21,13 +21,13 @@ const Pricing = props => {
       <div className="w-full flex flex-col md:flex-row gap-[160px] md:gap-6">
         {prices.map((price, i) => (
           <FadeIn key={i} delay={(i + 1) * 0.2} direction="left" fullWidth>
-            <div className="h-[550px] relative flex-1 bg-[#C1D0E4] rounded-[50px] max-w-[500px]">
+            <div className="h-[500px] relative flex-1 bg-[#C1D0E4] rounded-[50px] max-w-[500px]">
               <img
                 src={price.img}
                 alt=""
                 className="absolute -top-[100px] left-1/2 -translate-x-1/2"
               />
-              <div className="absolute bottom-0 w-full bg-white h-[260px] rounded-[50px] shadow-md px-8 py-[60px] flex flex-col justify-between">
+              <div className="absolute bottom-0 w-full  h-[260px] rounded-[50px] px-20 py-[100px] flex flex-col justify-between">
                 <div>
                   <h2 className="mb-0 text-fontBlack text-3xl lg:text-[32px] font-medium">
                     {price.title}
