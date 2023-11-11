@@ -14,7 +14,7 @@ export const heroSubtitle =
   "Refresh your space!";
 
 export const serviceTitle = "OUR SERVICES";
-export const serviceSubtitle = "We provide a variety of services, including...";
+export const serviceSubtitle = "We provide a variety of services, including En-suites,studio flats, kitchen,Bedroom flats & houses and more";
 
 export const pricesTitle = "We offer the best prices";
 
