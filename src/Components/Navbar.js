@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logoImage from '/Users/shifu/primecity/src/Assets/PFS2.png';
+import logoImage from '../Assets/PFS2.png';;
 
 
 
