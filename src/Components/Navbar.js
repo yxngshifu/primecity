@@ -12,7 +12,7 @@ const Navbar = () => {
 
     return (
         <div className="flex justify-between items-center bg-opacity-90 h-24 max-w-[1240px] mx-auto px-4 text-[#023e8a]">
-           <Link to="/hero">
+           <Link to="/">
             <img className="w-[30px] mx-4 my-4 flex items-center cursor-pointer" src={logoImage} alt="Logo" />
             </Link>
             <ul className="hidden md:flex cursor-pointer">
